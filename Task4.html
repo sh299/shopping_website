@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #f533d8;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            font-family: cursive;
+            font-size:larger;
+        }
+
+        .logo-image {
+            position: absolute;
+            top: 10%;
+            left: 10px; 
+            transform: translateY(-50%);
+            max-width: 400px; 
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+            
+        }
+
+        nav a:hover {
+          background-color: #16d352;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+        }
+        .b2{
+            background-color: rgb(245, 126, 83);
+            border-radius: 8px;
+            border-color: #ddd;
+            font-size: 18px;
+            margin: 4px 2px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .b1{
+            background-color: rgb(230, 235, 87);
+            border-radius: 8px;
+            border-color: #ddd;
+            font-size: 18px;
+            margin: 4px 2px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .symbol{
+          top: -o.75em;
+          font-size: 13px;
+        }
+        .off{
+            font-family: Arial, Helvetica, sans-serif;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="girl.jpg" alt="ShoppingHub Logo" class="logo-image">
+    <h1>ShoppingHub</h1>
+    <h5 class="sub">YOUR ULTIMATE SHOPPING DESTINATION</h5>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="content">
+    <div class="product-card">
+        <img src="nail.jpg" alt="Product 2">
+        <h2>Lovechild Masaba - The Classics! - 19 Phool - Glossy Finish Nail Enamel, 28 Ml</h2>
+        <p>Advanced Oxygen technology creates a non-occlusive film permeable to air and water-vapour.</p>
+        <span aria-hidden="true" class="off">-20%</span>
+        <span aria-hidden="true"><span class="symbol">₹</span><span class="whole"><b>179</b></span></span>
+        <p>Inclusive of all taxes</p>
+        </span><br><br>
+        <button class="b1">Add to Cart</button>
+        <button class="b2">Buy Now</button>
+    </div>
+    <div class="product-card">
+        <img src="note.jpeg" alt="Product 2">
+        <h2>Boardroom-Spiral-Journal-Notebook</h2>
+        <p>The PP cover is dust repellent. Just wipe it with a moist cloth to clean it. It also comes with rounded corners to keep you safe from sharp edges.</p>
+        <span aria-hidden="true" class="off">-77%</span>
+        <span aria-hidden="true"><span class="symbol">₹</span><span class="whole"><b>279</b></span></span>
+        <p>Inclusive of all taxes</p>
+        </span><br><br>
+        <button class="b1">Add to Cart</button>
+        <button class="b2">Buy Now</button>
+    </div>
+    <div class="product-card">
+        <img src="kurti.jpg" alt="Product 2">
+        <h2>Short-Kurtis-Tunics</h2>
+        <p>Kurta Fabric : Georgette, Kurta Style: Short Kurti ,Color :-Teal,Work: Chiankari Embroidered Short kurti</p>
+        <b>$29.99</b>
+        <p>Inclusive of all taxes</p>
+        <button class="b1">Add to Cart</button>
+        <button class="b2">Buy Now</button>
+    </div>
+    <div class="product-card">
+        <img src="dress.jpg" alt="Product 2">
+        <h2>forest-green-dresses</h2>
+        <p>Fabric: polyster blend 95% Polyester, 5% Spandex , Super soft and comfortable fabric inside</p>
+        <b>$39.99</b>
+        <p>Inclusive of all taxes</p>
+        <button class="b1">Add to Cart</button>
+        <button class="b2">Buy Now</button>
+    </div>
+    <div class="product-card">
+        <img src="pen.jpg" alt="Product 1">
+        <h2>Silver Chrome Fountain Pen</h2>
+        <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <span aria-hidden="true"><span class="symbol">₹</span><span class="whole"><b>145</b></span></span>
+        <p>Inclusive of all taxes</p>
+        <button class="b1">Add to Cart</button>
+        <button class="b2">Buy Now</button>
+    </div>
+    <div class="product-card">
+        <img src="ear.jpg" alt="Product 2">
+        <h2>Shining Diva Fashion Latest Stylish Traditional Gold Plated Jhumki Earrings for Women & Girls</h2>
+        <p>These jhumka earrings can be worn with all kind of traditional or modern outfits</p>
+        <span aria-hidden="true" class="off">-80%</span>
+        <span aria-hidden="true"><span class="symbol">₹</span><span class="whole"><b>299</b></span></span>
+        <p>Inclusive of all taxes</p>
+        </span><br><br>
+        <button class="b1">Add to Cart</button>
+        <button class="b2">Buy Now</button>
+    </div>
+    <div class="product-card">
+        <img src="shoes.jpg" alt="Product 2">
+        <h2>Red Tape Women's Walking Shoes</h2>
+        <p>Closure:Lace-Ups
+            Type:Walking Shoes
+            Upper Material:MESH+PU
+            Sole Material:EVA+TPU</p>
+        <span aria-hidden="true" class="off">-80%</span>
+        <span aria-hidden="true"><span class="symbol">₹</span><span class="whole"><b>1,159</b></span></span>
+        <p>Inclusive of all taxes</p>
+        </span><br><br>
+        <button class="b1">Add to Cart</button>
+        <button class="b2">Buy Now</button>
+    </div>
+    <div class="product-card">
+        <img src="bag.jpg" alt="Product 2">
+        <h2>ADISA Women's Girls Quilted Cross Body Sling Bag (SL5059-NEW)</h2>
+        <p>Dimensions: LxWxH - 8.75 x 2.75 x 6 inches</p>
+        <span aria-hidden="true" class="off">-74%</span>
+        <span aria-hidden="true"><span class="symbol">₹</span><span class="whole"><b>394</b></span></span>
+        <p>Inclusive of all taxes</p>
+        </span><br><br>
+        <button class="b1">Add to Cart</button>
+        <button class="b2">Buy Now</button>
+    </div>
+   
+    
+
+</div>
+
+</body>
+</html>
+
